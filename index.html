@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Canvas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/libs/jquery-1.9.0/jquery.min.js"></script>
+        <script src="js/libs/funcoes.js"></script>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/libs/flashcanvas.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="topo">
+            <h1 id="logo">HTML Canvas</h1>
+            <ul id="menu">
+                <li><a href="index.html">Home</a>&nbsp;</li>
+                <li>&nbsp;|&nbsp;</li>
+                <li>&nbsp;<a href="upload.html">Upload</a>&nbsp;</li>
+                <li>&nbsp;|&nbsp;</li>
+                <li>&nbsp;<a href="exemplos.html">Outros Exemplos</a>&nbsp;</li>
+            </ul>
+        </div>
+        <div id="container">
+            <div id="pagina">
+                <h3 class="tit">Upload</h3>
+                <p>Veja como você pode criar um sistema de upload de imagens utilizando o Canvas.</p>
+                <p>Além de upload, também pode usar crop e resizing. Tudo isso sem enviar para o servidor. Envie somente a imagem já reduzida e sinta o tempo de upload cair consideravelmente. Nos meus testes, uma imagem de 5.4 Mb com 1600x1200, após crop e resizing, ficou com 640x570 e subiu em 6 seg.</p>
+                <canvas id="canvas" width="320" height="235">Seu navegador não tem suporte para Canvas</canvas>
+                <div class="divisa"></div>
+                
+                <h3 class="tit">Outros Exemplos</h3>
+                <p>Uma lista de sites de exemplos sobre o poder do Canvas.</p>
+            </div>
+        </div>
+    </body>
+</html>
